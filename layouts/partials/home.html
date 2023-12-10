@@ -1,0 +1,19 @@
+<section class="container taxonomy">
+  {{ $totalNote := 0 }}
+  {{ range .Site.Taxonomies.tags }}
+    {{ $totalNote = add $totalNote .Count }}
+  {{ end }}
+  <ul>
+    <li>
+    <span class="taxonomy-element" style="/*font-family: monospace;*/">
+    <a href="{{ .Site.BaseURL }}notes">notes</a><sup>{{ $totalNote }}</sup></span>
+    </li>
+  {{ range .Site.Taxonomies.tags }}
+    <li>
+    <span class="taxonomy-element" style="/*font-family: monospace;*/">
+    <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a><sup>{{ .Count }}</sup></span>
+    </li>
+    {{ $totalNote = add $totalNote .Count }}
+  {{ end }}
+  </ul>
+</section>
