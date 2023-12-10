@@ -29,6 +29,7 @@ It is simply another notes for my journey in expressing my thought with limitati
 + Equations are in LaTeX.
 + Others are using JavaScript libraries, in order to represent in plain text.
 + One day one note.
++ Language: en, id, de.
 
 
 ## list
