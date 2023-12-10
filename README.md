@@ -1,2 +1,2 @@
 # plaintext
-Notes in plain text
+notes in plain text
