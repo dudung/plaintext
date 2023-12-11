@@ -28,7 +28,7 @@ It is simply another notes for my journey in expressing my thought with limitati
 + Diagrams are in Mermaid.
 + Equations are in LaTeX.
 + Others are using JavaScript libraries, in order to represent in plain text.
-+ One day one note.
++ One day one note, at least, more is allowed.
 + Language: en, id, de.
 
 
