@@ -13,7 +13,7 @@ url: "0003"
 ## 11-mon
 + `0609` SVG for drawing nodes
 {{< html >}}
-<svg
+<!--svg
   xmlns="http://www.w3.org/2000/svg"
   width="200" height="200"
   viewBox="0 0 200 200"
@@ -54,8 +54,11 @@ url: "0003"
     }
   </script>
   
-</svg>
+</svg-->
 {{< /html >}}
   - It can not be shown online, but ok while offline with Hugo.
   - JS script seems not executed on GitHub.
 + `0603` Start this as tempate.
+
+
+{{< svg "img/svg/circle_of_circles.svg" >}}
