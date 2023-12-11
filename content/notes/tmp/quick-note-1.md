@@ -13,7 +13,6 @@ url: "0003"
 ## 11-mon
 + `0609` SVG for drawing nodes
 {{< html >}}
-<html>
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="200" height="200"
@@ -56,7 +55,6 @@ url: "0003"
   </script>
   
 </svg>
-</html>
 {{< /html >}}
   - It can not be shown online, but ok while offline with Hugo.
   - JS script seems not executed on GitHub.
