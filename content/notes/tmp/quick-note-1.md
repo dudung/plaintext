@@ -56,5 +56,7 @@ url: "0003"
 </svg>
 {{< /html >}}
   - It can not be shown online, but ok while offline with Hugo.
-  - JS script seems not executed on GitHub.
-+ `0603` Start this as tempate.
+  - JS script seems not executed on GitHub &rightarrow; `<` in `for` has been identified as open tag.
+    + e.g. `for(let i = 0; i < N; i++) {`.
+  - Change loop using `of` but there is problem when inluce from file since all variables are already defined.
++ `0603` Start this as template.
