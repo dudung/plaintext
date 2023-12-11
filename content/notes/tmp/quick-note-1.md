@@ -29,8 +29,6 @@ url: "0003"
     <circle id="c14" /> <circle id="c15" />
   </g>
   
-  <rect x='95' y='95' width='10' height='10' stroke='red' />
-  
   <script>
     let c = document
       .getElementsByTagNameNS(
@@ -40,26 +38,21 @@ url: "0003"
     let ox = 100;
     let oy = 100;
     let R = 80;
-    for(let i = 0; i < c.length; i++) {
-      let cx = ox + R * Math.cos(i * Math.PI / 8);
-      let cy = oy + R * Math.sin(i * Math.PI / 8);
-      c[i].setAttribute('cx', cx);
-      c[i].setAttribute('cy', cy);
-      c[i].setAttribute('r', 10);
-      let rr = i * 17;
-      let bb = i * 17;
-      let gg = i * 17;
+    let j = 0;
+    for(let i of c) {
+      let cx = ox + R * Math.cos(j * Math.PI / 8);
+      let cy = oy + R * Math.sin(j * Math.PI / 8);
+      i.setAttribute('cx', cx);
+      i.setAttribute('cy', cy);
+      i.setAttribute('r', 10);
+      let rr = j * 17;
+      let bb = j * 17;
+      let gg = j * 17;
       let color = 'rgb(' + rr + ',' + gg + ',' + bb + ')';
-      c[i].setAttribute('fill', color);
+      i.setAttribute('fill', color);
+      j++;
     }
-    
-    let c0 = document.getElementById('c00');
-    c0.setAttribute('cx', 100);
-    c0.setAttribute('cy', 100);
-    c0.setAttribute('r', 20);
-    c0.setAttribute('fill', '#f00');
   </script>
-  
 </svg>
 {{< /html >}}
   - It can not be shown online, but ok while offline with Hugo.
