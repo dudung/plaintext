@@ -13,7 +13,7 @@ url: "0003"
 ## 11-mon
 + `0609` SVG for drawing nodes
 {{< html >}}
-<!--svg
+<svg
   xmlns="http://www.w3.org/2000/svg"
   width="200" height="200"
   viewBox="0 0 200 200"
@@ -40,7 +40,7 @@ url: "0003"
     let ox = 100;
     let oy = 100;
     let R = 80;
-    for(let i = 0; i <= c.length; i++) {
+    for(let i = 0; i < c.length; i++) {
       let cx = ox + R * Math.cos(i * Math.PI / 8);
       let cy = oy + R * Math.sin(i * Math.PI / 8);
       c[i].setAttribute('cx', cx);
@@ -52,13 +52,16 @@ url: "0003"
       let color = 'rgb(' + rr + ',' + gg + ',' + bb + ')';
       c[i].setAttribute('fill', color);
     }
+    
+    let c0 = document.getElementById('c00');
+    c0.setAttribute('cx', 100);
+    c0.setAttribute('cy', 100);
+    c0.setAttribute('r', 20);
+    c0.setAttribute('fill', '#f00');
   </script>
   
-</svg-->
+</svg>
 {{< /html >}}
   - It can not be shown online, but ok while offline with Hugo.
   - JS script seems not executed on GitHub.
 + `0603` Start this as tempate.
-
-
-{{< svg "img/svg/circle_of_circles.svg" >}}
