@@ -29,6 +29,8 @@ url: "0003"
     <circle id="c14" /> <circle id="c15" />
   </g>
   
+  <rect x='95' y='95' width='10' height='10' stroke='red' />
+  
   <script>
     let c = document
       .getElementsByTagNameNS(
@@ -54,4 +56,5 @@ url: "0003"
   
 </svg>
 {{< /html >}}
+  - It can not be shown online, but ok while offline with Hugo.
 + `0603` Start this as tempate.
