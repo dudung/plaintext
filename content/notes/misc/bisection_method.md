@@ -80,17 +80,23 @@ flowchart TD
   O1a(("1")); O1b(("1"));
   B(["Begin"])
   E(["End"])
-  classDef style1 fill:none, color:inherit;
-  classDef style2 fill:transparent, color:inherit;
-  class P1,P2,P3,P4,P5,P6 style1;
-  class C1,C2,B,E,I style1;
-  class O1a,O1b,O2a,O2b,O3a,O3b,O4a,O4b style2;
+  classDef style1 fill:none, color:inherit
+  classDef style2 fill:transparent, color:inherit
+  class P1,P2,P3,P4,P5,P6 style1
+  class C1,C2,B,E,I style1
+  class O1a,O1b,O2a,O2b,O3a,O3b,O4a,O4b style2
+  linkStyle default stroke:#8a8
 {{< /mermaid >}}
 + The symbol a &harr; b means swapping a and b values.
-  ```jstyle1
-  // swap a and b viastyle1c
-  let c C sCy,B,E,I = b;
-  let b = c;
+  ```js
+  // define a and b
+  let a = 2;
+  let b = 10;
+
+  // swap a and b via c
+  let c = a;
+  a = b;
+  b = c;
   ```
 
 
