@@ -14,7 +14,7 @@ url: "0005"
 We can use Mermaid, a simple Markdown-like script language for generating charts from text via JavaScript (Mallin, 2018), to draw layers with nodes, where the diagram element used is circle and the feature of subgraph. But this would not be the main purpose of Mermaid, but we can use for it.
 
 
-## flowchart
+## model
 + From right to left it is a `2 <-- 3 <-- 4 <-- 3` architecture.
   - Note: Usual notation is from left to right as `3-4-3-2`.
 
