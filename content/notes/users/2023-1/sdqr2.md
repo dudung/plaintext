@@ -12,7 +12,7 @@ url: "000b"
 
 ## 2023-1
 + `18-dec-2023` [`hj8uc`](https://osf.io/hj8uc) Photo for presentation slide of PND.
-+ `17-dec-2023` [`m8bsk`](https://osf.io/m8bsk) Final doctoral thesis for PND on 21-Dec 1000.
++ `17-dec-2023` [`m8bsk`](https://osf.io/m8bsk) Final doctoral thesis for PND on 20-Dec 1000.
 + `11-dec-2023` [`p8g93`](https://osf.io/p8g93) Invitation for PND on 20-Dec.
 + `07-dec-2023` [`f6t5w`](https://osf.io/f6t5w) Draft of dissertation for PND.
 + `01-dec-2023` [`uxfdk`](https://osf.io/uxfdk) Presentation of SHR with hybrid mode.
