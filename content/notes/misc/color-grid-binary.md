@@ -22,6 +22,7 @@ function createGrid(rows, cols, parentId, chromosome) {
   parent.style.height = (rows * side) + "px";
   parent.style.border = "0px solid #888";
   parent.style.display = "inline-block";
+  parent.style.marginLeft = "0.5em";
   
   let N = rows * cols;
   for(let i = 0; i < N; i++) {
@@ -48,15 +49,15 @@ function getColor(gene) {
 {{< /html >}}
 
 
-## script
+## 1&times;1
 {{< html >}}
-<div id="c00"></div>
-<div id="c01"></div>
+<div id="c11-0"></div>
+<div id="c11-1"></div>
 </div>
 
 <script>
-createGrid(2, 2, "c00", "0011");
-createGrid(2, 2, "c01", "1010");
+createGrid(1, 1, "c11-0", "0");
+createGrid(1, 1, "c11-1", "1");
 </script>
 {{< /html >}}
 
