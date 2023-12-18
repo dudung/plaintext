@@ -15,6 +15,13 @@ In computer world, one of description about a color palette is a combination of 
 
 {{< html >}}
 <script>
+function formGrid(id) {
+  let N = id.length;
+  let rows = Math.floor(Math.sqrt(N));
+  let cols = rows;
+  createGrid(rows, cols, id, id);
+}
+
 function createGrid(rows, cols, parentId, chromosome) {
   let side = 20;
   let parent = document.getElementById(parentId);
@@ -51,16 +58,48 @@ function getColor(gene) {
 
 ## 1&times;1
 {{< html >}}
-<div id="c11-0"></div>
-<div id="c11-1"></div>
-</div>
-
+<div id="0"></div>
+<div id="1"></div>
 <script>
-createGrid(1, 1, "c11-0", "0");
-createGrid(1, 1, "c11-1", "1");
+formGrid("0");
+formGrid("1");
 </script>
 {{< /html >}}
 
+
+## 2&times;2
+{{< html >}}
+<div id="0000"></div>
+<script>
+formGrid("0000");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="1000"></div>
+<div id="0100"></div>
+<div id="0010"></div>
+<div id="0001"></div>
+<script>
+formGrid("1000");
+formGrid("0100");
+formGrid("0010");
+formGrid("0001");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="1100"></div>
+<div id="0101"></div>
+<div id="0011"></div>
+<div id="1010"></div>
+<script>
+formGrid("1100");
+formGrid("0101");
+formGrid("0011");
+formGrid("1010");
+</script>
+{{< /html >}}
 
 
 ## refs
