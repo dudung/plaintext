@@ -93,11 +93,67 @@ formGrid("0001");
 <div id="0101"></div>
 <div id="0011"></div>
 <div id="1010"></div>
+<div id="1001"></div>
+<div id="0110"></div>
 <script>
 formGrid("1100");
 formGrid("0101");
 formGrid("0011");
 formGrid("1010");
+formGrid("1001");
+formGrid("0110");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="1110"></div>
+<div id="1101"></div>
+<div id="0111"></div>
+<div id="1011"></div>
+<script>
+formGrid("1110");
+formGrid("1101");
+formGrid("0111");
+formGrid("1011");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="1111"></div>
+<script>
+formGrid("1111");
+</script>
+{{< /html >}}
+
+
+## 3&times;3
+{{< html >}}
+<div id="000000000"></div>
+<script>
+formGrid("000000000");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="100000000"></div>
+<div id="010000000"></div>
+<div id="001000000"></div>
+<div id="000100000"></div>
+<div id="000010000"></div>
+<div id="000001000"></div>
+<div id="000000100"></div>
+<div id="000000010"></div>
+<div id="000000001"></div>
+<script>
+formGrid("100000000");
+formGrid("010000000");
+formGrid("001000000");
+formGrid("000100000");
+formGrid("000010000");
+formGrid("000001000");
+formGrid("000000100");
+formGrid("000000010");
+formGrid("000000001");
 </script>
 {{< /html >}}
 
