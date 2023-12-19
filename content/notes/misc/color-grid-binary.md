@@ -23,7 +23,7 @@ function formGrid(id) {
 }
 
 function createGrid(rows, cols, parentId, chromosome) {
-  let side = 20;
+  let side = 10;
   let parent = document.getElementById(parentId);
   parent.style.width = (cols * side) + "px";
   parent.style.height = (rows * side) + "px";
@@ -36,7 +36,7 @@ function createGrid(rows, cols, parentId, chromosome) {
     let cell = document.createElement("div");
     cell.style.width = side + "px";
     cell.style.height = side + "px";
-    cell.style.border = "1px solid #888";
+    cell.style.border = "0.1px solid #888";
     cell.style.float = "left";
     cell.style.background = getColor(chromosome[i]);
     parent.append(cell);
@@ -57,6 +57,7 @@ function getColor(gene) {
 
 
 ## 1&times;1
++ 1-1
 {{< html >}}
 <div id="0"></div>
 <div id="1"></div>
@@ -68,6 +69,7 @@ formGrid("1");
 
 
 ## 2&times;2
++ 1-4-6-4-1
 {{< html >}}
 <div id="0000"></div>
 <script>
@@ -127,6 +129,7 @@ formGrid("1111");
 
 
 ## 3&times;3
++ 1-8-28-56-70-56-28-8-1
 {{< html >}}
 <div id="000000000"></div>
 <script>
