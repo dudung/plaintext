@@ -14,10 +14,10 @@ url: "0007"
 + `10218099` [`000g`](../000g) SV Nawaf Alfarizki.
 + `10219077` [`0008`](../0008) RW Dwita Gurning. &check;
 + `10220054` [`000h`](../000h) SV Muhammad Reza Fahriyansyah.
-+ `10220022` [`000f`](../000f) SV Angeli Fransiska Njo
++ `10220022` [`000f`](../000f) SV Angeli Fransiska Njo.
 + `30219009` [`000c`](../000c) SV Eka Sylvianti Rahayu.
 + `30221017` [`000a`](../000a) SH Yuant Tiandho.
 + `30222306` [`000d`](../000d) SV Asep Bustanil Aripin.
 + `30222751` [`000e`](../000e) SV Phetviengkham Onexayvieng.
-+ `30223009` [`0009`](../0009) FZ Muhammad Lawrence Patterson. 
++ `30223009` [`0009`](../0009) FZ Muhammad Lawrence Patterson. &check;
 + `60419007` [`000b`](../000b) ED Zaida.
