@@ -1,5 +1,5 @@
 ---
-title: "color grid binary"
+title: "color grid rect binary"
 date: 2023-12-19T03:51:00+08:00
 authors: ['Sparisoma Viridi']
 tags: ['misc']
@@ -29,7 +29,7 @@ function createGrid(rows, cols, parentId, chromosome) {
   parent.style.height = (rows * side) + "px";
   parent.style.border = "0px solid #888";
   parent.style.display = "inline-block";
-  parent.style.marginLeft = "0.5em";
+  parent.style.marginLeft = "0.2em";
   
   let N = rows * cols;
   for(let i = 0; i < N; i++) {
@@ -160,8 +160,121 @@ formGrid("000000001");
 </script>
 {{< /html >}}
 
+{{< html >}}
+<div id="110000000"></div>
+<div id="011000000"></div>
+<div id="001100000"></div>
+<div id="000110000"></div>
+<div id="000011000"></div>
+<div id="000001100"></div>
+<div id="000000110"></div>
+<div id="000000011"></div>
+<script>
+formGrid("110000000");
+formGrid("011000000");
+formGrid("001100000");
+formGrid("000110000");
+formGrid("000011000");
+formGrid("000001100");
+formGrid("000000110");
+formGrid("000000011");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="101000000"></div>
+<div id="010100000"></div>
+<div id="001010000"></div>
+<div id="000101000"></div>
+<div id="000010100"></div>
+<div id="000001010"></div>
+<div id="000000101"></div>
+<script>
+formGrid("101000000");
+formGrid("010100000");
+formGrid("001010000");
+formGrid("000101000");
+formGrid("000010100");
+formGrid("000001010");
+formGrid("000000101");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="100100000"></div>
+<div id="010010000"></div>
+<div id="001001000"></div>
+<div id="000100100"></div>
+<div id="000010010"></div>
+<div id="000001001"></div>
+<script>
+formGrid("100100000");
+formGrid("010010000");
+formGrid("001001000");
+formGrid("000100100");
+formGrid("000010010");
+formGrid("000001001");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="100010000"></div>
+<div id="010001000"></div>
+<div id="001000100"></div>
+<div id="000100010"></div>
+<div id="000010001"></div>
+<script>
+formGrid("100010000");
+formGrid("010001000");
+formGrid("001000100");
+formGrid("000100010");
+formGrid("000010001");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="100001000"></div>
+<div id="010000100"></div>
+<div id="001000010"></div>
+<div id="000100001"></div>
+<script>
+formGrid("100001000");
+formGrid("010000100");
+formGrid("001000010");
+formGrid("000100001");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="100000100"></div>
+<div id="010000010"></div>
+<div id="001000001"></div>
+<script>
+formGrid("100000100");
+formGrid("010000010");
+formGrid("001000001");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="100000010"></div>
+<div id="010000001"></div>
+<script>
+formGrid("100000010");
+formGrid("010000001");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="100000001"></div>
+<script>
+formGrid("100000001");
+</script>
+{{< /html >}}
+
 
 ## refs
-+  Chakraborty R (2018) "Building a Color Palette Framework", Medium, url 1ttps://medium.com/sketch-app-sources/96dbda541c2e.
++  Chakraborty R (2018) "Building a Color Palette Framework", Medium, url 
+1ttps://medium.com/sketch-app-sources/96dbda541c2e.
 + Hannah J (2023) "An Introduction to Color Theory and Color Palettes", CareerFoundry, url https://careerfoundry.com/en/blog/ui-design/introduction-to-color-theory-an
 -color-palettes/.
