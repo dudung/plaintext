@@ -19,6 +19,6 @@ url: "0007"
 + `30219009` [`000c`](../000c) SV Eka Sylvianti Rahayu.
 + `30221017` [`000a`](../000a) SH Yuant Tiandho.
 + `30222306` [`000d`](../000d) SV Asep Bustanil Aripin. &check;
-+ `30222751` [`000e`](../000e) SV Phetviengkham Onexayvieng.
++ `30222751` [`000e`](../000e) SV Phetviengkham Onexayvieng. &check;
 + `30223009` [`0009`](../0009) FZ Muhammad Lawrence Patterson. &check;
 + `60419007` [`000b`](../000b) ED Zaida.
