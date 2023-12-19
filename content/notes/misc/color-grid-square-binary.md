@@ -58,11 +58,17 @@ function getColor(gene) {
 
 ## 1&times;1
 + 1-1
+
 {{< html >}}
 <div id="0"></div>
-<div id="1"></div>
 <script>
 formGrid("0");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="1"></div>
+<script>
 formGrid("1");
 </script>
 {{< /html >}}
@@ -70,6 +76,7 @@ formGrid("1");
 
 ## 2&times;2
 + 1-4-6-4-1
+
 {{< html >}}
 <div id="0000"></div>
 <script>
@@ -130,6 +137,7 @@ formGrid("1111");
 
 ## 3&times;3
 + 1-8-28-56-70-56-28-8-1
+
 {{< html >}}
 <div id="000000000"></div>
 <script>
@@ -300,6 +308,121 @@ formGrid("101111110");
 formGrid("011111011");
 formGrid("101111101");
 formGrid("110111110");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="011110111"></div>
+<div id="101111011"></div>
+<div id="110111101"></div>
+<div id="111011110"></div>
+<script>
+formGrid("011110111");
+formGrid("101111011");
+formGrid("110111101");
+formGrid("111011110");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="011101111"></div>
+<div id="101110111"></div>
+<div id="110111011"></div>
+<div id="111011101"></div>
+<div id="111101110"></div>
+<script>
+formGrid("011101111");
+formGrid("101110111");
+formGrid("110111011");
+formGrid("111011101");
+formGrid("111101110");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="011011111"></div>
+<div id="101101111"></div>
+<div id="110110111"></div>
+<div id="111011011"></div>
+<div id="111101101"></div>
+<div id="111110110"></div>
+<script>
+formGrid("011011111");
+formGrid("101101111");
+formGrid("110110111");
+formGrid("111011011");
+formGrid("111101101");
+formGrid("111110110");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="010111111"></div>
+<div id="101011111"></div>
+<div id="110101111"></div>
+<div id="111010111"></div>
+<div id="111101011"></div>
+<div id="111110101"></div>
+<div id="111111010"></div>
+<script>
+formGrid("010111111");
+formGrid("101011111");
+formGrid("110101111");
+formGrid("111010111");
+formGrid("111101011");
+formGrid("111110101");
+formGrid("111111010");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="001111111"></div>
+<div id="100111111"></div>
+<div id="110011111"></div>
+<div id="111001111"></div>
+<div id="111100111"></div>
+<div id="111110011"></div>
+<div id="111111001"></div>
+<div id="111111100"></div>
+<script>
+formGrid("001111111");
+formGrid("100111111");
+formGrid("110011111");
+formGrid("111001111");
+formGrid("111100111");
+formGrid("111110011");
+formGrid("111111001");
+formGrid("111111100");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="011111111"></div>
+<div id="101111111"></div>
+<div id="110111111"></div>
+<div id="111011111"></div>
+<div id="111101111"></div>
+<div id="111110111"></div>
+<div id="111111011"></div>
+<div id="111111101"></div>
+<div id="111111110"></div>
+<script>
+formGrid("011111111");
+formGrid("101111111");
+formGrid("110111111");
+formGrid("111011111");
+formGrid("111101111");
+formGrid("111110111");
+formGrid("111111011");
+formGrid("111111101");
+formGrid("111111110");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="111111111"></div>
+<script>
+formGrid("111111111");
 </script>
 {{< /html >}}
 
