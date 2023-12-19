@@ -11,6 +11,7 @@ url: "000d"
 
 
 ## 2023-1
++ `19-dec-2023` [`2hxn7`](https://osf.io/2hxn7) Approvement for final report to course PIC.
 + `18-dec-2023` [`r2mgw`](https://osf.io/r2mgw) Reminder for and format discussion of final report.
 + `08-dec-2023` [`47wjq`](https://osf.io/47wjq) Example of final technical report from BPPT.
 + `27-nov-2023` [`t59gm`](https://osf.io/t59gm) PR-9 Stock and Flow Diagram using VENSIM PLE Software.
