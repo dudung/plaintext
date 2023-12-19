@@ -5,7 +5,10 @@
 let div = document.getElementById('{{ .Get "id" }}');
 console.log(div);
 
+
+
 let lines = "{{ .Inner }}".split('\n');
+console.log(lines);
 if(lines[0].length == 0) lines.shift();
 let N = lines.length;'{{ .Get "id" }}'
 if(lines[N-1].length == 0) lines.pop();
