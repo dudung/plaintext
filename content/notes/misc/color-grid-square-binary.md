@@ -272,6 +272,37 @@ formGrid("100000001");
 </script>
 {{< /html >}}
 
+$$
+\cdot\cdot
+$$
+
+{{< html >}}
+<div id="011111110"></div>
+<script>
+formGrid("011111110");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="011111101"></div>
+<div id="101111110"></div>
+<script>
+formGrid("011111101");
+formGrid("101111110");
+</script>
+{{< /html >}}
+
+{{< html >}}
+<div id="011111011"></div>
+<div id="101111101"></div>
+<div id="110111110"></div>
+<script>
+formGrid("011111011");
+formGrid("101111101");
+formGrid("110111110");
+</script>
+{{< /html >}}
+
 
 ## refs
 +  Chakraborty R (2018) "Building a Color Palette Framework", Medium, url 
