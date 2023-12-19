@@ -52,15 +52,15 @@ url: "000k"
 
 
 ## code
-  ```
-  {{< gene2grid id="c03" display="inline-block" >}}
-  11111
-  00100
-  00100
-  00100
-  00100
-  {{< /gene2grid >}}
-  ```
+```
+{{< gene2grid id="c04" display="inline-block" >}}
+11111
+00100
+00100
+00100
+00100
+{{< /gene2grid >}}
+```
 
 
 ## refs
