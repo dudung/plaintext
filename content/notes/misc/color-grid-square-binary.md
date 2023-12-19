@@ -1,5 +1,5 @@
 ---
-title: "color grid rect binary"
+title: "color grid square binary"
 date: 2023-12-19T03:51:00+08:00
 authors: ['Sparisoma Viridi']
 tags: ['misc']
