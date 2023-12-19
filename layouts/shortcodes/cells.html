@@ -1,0 +1,20 @@
+<div id='{{ .Get "id" }}'>
+</div>
+
+<script>
+let div = document.getElementById('{{ .Get "id" }}');
+console.log(div);
+
+let lines = "{{ .Inner }}".split('\n');
+if(lines[0].length == 0) lines.shift();
+let N = lines.length;'{{ .Get "id" }}'
+if(lines[N-1].length == 0) lines.pop();
+
+for(let i = 0; i < N; i++) {
+  let cols = lines[i];
+  let M = cols.length;
+  for(let j = 0; j < M; j++) {
+  }
+}
+</script>
+
