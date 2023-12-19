@@ -23,7 +23,7 @@ function formGrid(id) {
 }
 
 function createGrid(rows, cols, parentId, chromosome) {
-  let side = 10;
+  let side = 8;
   let parent = document.getElementById(parentId);
   parent.style.width = (cols * side) + "px";
   parent.style.height = (rows * side) + "px";
