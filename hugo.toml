@@ -236,3 +236,24 @@ languageName = "<span style='font-variant: small-caps;'>en</span>"
 #name = "Tags"
 #weight = 3
 #url = "tags/"
+
+#[outputFormats]
+#  [outputFormats.manifest]
+#    name = "manifest"
+#    baseName = "manifest"
+#    mediaType = "application/json"
+#    notAlternative = "true"
+    
+#[outputs]
+#  home = [ "HTML", "RSS", "MANIFEST"]
+
+#  home = [ "HTML", "RSS", "MANIFEST", "BROWSERCONFIG"]
+#  [outputFormats.browserconfig]
+#    name = "browserconfig"
+#    baseName = "browserconfig"
+#    mediaType = "application/xml"
+#    notAlternative = "true"
+
+#[module]
+#[module.hugoVersion]
+#min = "0.77.0"
