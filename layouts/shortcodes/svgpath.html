@@ -13,7 +13,10 @@ const svgns = "http://www.w3.org/2000/svg";
 let svg = document.createElementNS(svgns, "svg");
 svg.setAttribute("width", '{{ .Get "width" }}');
 svg.setAttribute("height", '{{ .Get "height" }}');
-svg.style.border = '0.1px solid {{ .Get "border" }}';
+
+let border = '{{ .Get "border" }}';
+if(border.length == 0) border = "#888";
+svg.style.border = '0.1px solid ' + border;
 
 let path = document.createElementNS(svgns, "path");
 path.setAttribute("d", d);
