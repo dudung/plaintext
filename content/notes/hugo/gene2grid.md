@@ -11,7 +11,7 @@ url: "000k"
 
 
 ## intro
-+ It is a Hugo schortcode.
++ It is a Hugo schortcode, which is an advancement of [000i](../000i).
 + It converts characters including spaces in line to grid. 
 + Required parameter is `id` that must be unique.
 + Optional parameter is `display` with value `inline-block` for arrange several grids in a line.
