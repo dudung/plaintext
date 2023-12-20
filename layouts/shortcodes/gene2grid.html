@@ -1,7 +1,7 @@
 <div id='{{ .Get "id" }}' style="padding: 4px;">
 </div>
 
-<script src="{{ .Site.BaseURL }}" + "assets/js/colors.js" />
+<script type="text/javascript" src='{{ .site.baseURL }}' + "/static/js/colors.js"></script>
 <script>
 createGrid('{{ .Get "id" }}')
 
