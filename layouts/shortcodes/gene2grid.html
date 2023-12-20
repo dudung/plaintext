@@ -1,17 +1,15 @@
 <div id='{{ .Get "id" }}' style="padding: 4px;">
 </div>
 
-<script type="text/javascript" src='{{ .site.baseURL }}' + "/static/js/colors.js"></script>
 <script>
-createGrid('{{ .Get "id" }}')
-
+createGrid('{{ .Get "id" }}');
 
 function createGrid(id) {
   let pardiv = document.getElementById(id);
   pardiv.style.display = '{{ .Get "display" }}';
   
   let inner = "{{ .Inner }}";
-
+  
   // Windows
   let eol = '\r\n';
   if(inner.indexOf(eol) == -1) {
@@ -22,18 +20,20 @@ function createGrid(id) {
       eol = '\n';
     }
   }
-
+  
   let lines = inner.split(eol);
+  
   if(lines[0].length == 0) lines.shift();
   let N = lines.length;
   if(lines[N-1].length == 0) lines.pop();
+  N = lines.length;
   
   let sz = '{{ .Get "size"}}';
   let side = 8;
   if(sz.length > 0) {
     side = sz;
   }
-
+  
   for(let i = 0; i < N; i++) {
     let cols = lines[i];
     let M = cols.length;
@@ -46,7 +46,7 @@ function createGrid(id) {
       let coldiv = document.createElement("div");
       coldiv.style.width = side + "px";
       coldiv.style.height = side + "px";
-      coldiv.style.background = ptColor[cols[j]];
+      coldiv.style.background = getColor(cols[j]);
       coldiv.style.border = "0.2px solid #888";
       coldiv.style.float = "left";
       rowdiv.append(coldiv);
@@ -54,5 +54,10 @@ function createGrid(id) {
     pardiv.append(rowdiv);
   }
 }
+
+function getColor(gene) {
+  return ptColors[gene];
+}
+
 </script>
 
