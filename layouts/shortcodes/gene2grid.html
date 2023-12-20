@@ -1,6 +1,7 @@
 <div id='{{ .Get "id" }}' style="padding: 4px;">
 </div>
 
+<script src="{{ .Site.BaseURL }}" + "assets/js/colors.js" />
 <script>
 createGrid('{{ .Get "id" }}')
 
@@ -45,27 +46,13 @@ function createGrid(id) {
       let coldiv = document.createElement("div");
       coldiv.style.width = side + "px";
       coldiv.style.height = side + "px";
-      coldiv.style.background = getColor(cols[j]);
+      coldiv.style.background = ptColor[cols[j]];
       coldiv.style.border = "0.2px solid #888";
       coldiv.style.float = "left";
       rowdiv.append(coldiv);
     }
     pardiv.append(rowdiv);
   }
-}
-
-
-function getColor(gene) {
-  let colors = [
-    "#000",
-    "#fff",
-    "#44f",
-    "#4f4",
-    "#f88",
-    "#ff8",
-    "#777",
-  ];
-  return colors[gene];
 }
 </script>
 
