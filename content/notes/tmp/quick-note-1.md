@@ -10,7 +10,7 @@ url: "0003"
 {{< toc >}}
 
 
-## 20-web
+## 20-wed
 {{< testcode >}}
 {{< /testcode >}}
 
