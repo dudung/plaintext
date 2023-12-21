@@ -13,6 +13,7 @@ url: "0007"
 ## 2023-1
 + `10218099` [`000g`](../000g) SV Nawaf Alfarizki. &check; &cross;
 + `10219077` [`0008`](../0008) RW Dwita Gurning. &check;
++ `10220010` [`000m`](../000m) MK Fajris Zahrotun.
 + `10220054` [`000h`](../000h) SV Muhammad Reza Fahriyansyah.
 + `10220022` [`000f`](../000f) SV Angeli Fransiska Njo.
 + `20222010` [`000j`](../000j) SV Nazla Innayah. &check;
