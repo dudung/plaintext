@@ -1,7 +1,7 @@
 ---
 title: "9b8da"
 date: 2023-12-21T11:05:00+08:00
-authors: ['Fajris Zahrotun', 'Mikrajuddin Abdullah', 'Sparisoma Viridi']
+authors: ['Fajris Zahrotun Nihayah', 'Mikrajuddin Abdullah', 'Sparisoma Viridi']
 tags: ['users']
 draft: false
 math: false
