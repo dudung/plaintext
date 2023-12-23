@@ -10,6 +10,13 @@ url: "0007"
 {{< toc >}}
 
 
+## 2023-2
++ `20922307` [`000o`](../000o) Ahmad Mushawir.
++ `20922313` [`000p`](../000p) Akhmad Faeda Insani.
++ `20922319` [`000q`](../000q) Zainuddin.
++ `20922320` [`000r`](../000r) Aditya Adiaksa
+
+
 ## 2023-1
 + `10218099` [`000g`](../000g) SV Nawaf Alfarizki. &check; &cross;
 + `10219077` [`0008`](../0008) RW Dwita Gurning. &check;
