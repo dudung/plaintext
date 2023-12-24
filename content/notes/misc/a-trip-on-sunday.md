@@ -46,8 +46,14 @@ Well, it's not a really trip from one city to another but more still in the city
     3J4G+X2R, Cijagra, Lengkong, Bandung City, West Java 40265. \
     url https://maps.app.goo.gl/7MUohFs8qMsQqMX49
 + Potential problem
-  - From Masjid Nurul Iman to Balai Sartike via,
+  - From Masjid Nurul Iman to Balai Sartike via
     + Jl. Cijagra I,
     + Jl. Suryalaya Tengah,
     + Jl. Suryalaya Indah.
   - url https://maps.app.goo.gl/zbuRFf7k36EzYkG97.
+
+
+## notes
++ The potential problem is overcome. Once there was doubt and turning to previous interection, small one, was conducting, but two online service motorcycles passing through and showing the way.
++ It is actually easier that it seems, since in corner of Jl. Suryalaya and Jl. Cijagra I there is a small park with title of Balai Sartika.
++ And the way back is also easy and the u-turn is only couple of meters after Telcom School, Buah Batu.
