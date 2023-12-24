@@ -2,7 +2,7 @@
 title: "scanning method"
 date: 2023-12-23T20:27:00+08:00
 authors: ['Sparisoma Viridi']
-tags: ['misc']
+tags: ['root-finding']
 draft: false
 math: true
 url: "000s"

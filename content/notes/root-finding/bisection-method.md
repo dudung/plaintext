@@ -2,7 +2,7 @@
 title: "bisection method"
 date: 2023-12-12T09:07:00+08:00
 authors: ['Sparisoma Viridi']
-tags: ['misc']
+tags: ['root-finding']
 draft: false
 math: true
 url: "0004"
