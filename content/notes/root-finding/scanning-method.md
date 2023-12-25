@@ -11,7 +11,7 @@ url: "000s"
 
 
 ## intro
-The simplest way to find a root of an equation is by scanning it from an intial value, e.g. $x = x_a$, with increment $\Delta x$ until sign of the function change from previously ${\rm sign}(f(x_a))$.
+The simplest way to find a root of an equation is by scanning root candidates from an intial value, e.g. $x = x_a$, with increment $\Delta x$ until sign of the function change from previously ${\rm sign}(f(x_a))$, or if possible until $f(x) = 0$ (Rahmansyah & Ahhad, 2013). It is a typical solution in optics if met the physical limit of a resolution (Rom39, 2015).
 
 
 ## example
@@ -19,8 +19,65 @@ The simplest way to find a root of an equation is by scanning it from an intial 
 $$\tag{1}
 f(x) = x^2 - 104.25x + 425,
 $$
-whose root is to be find with $\Delta x = 10^{-1}$, and initial values are $0$.
+whose root is to be find.
++ Navigate the mouse on a point to view value of $(x, f(x))$ on following figure of Equation (1).
+  {{< chart 80 300 >}}
+  {
+    type: 'scatter',
+    data:
+    {
+      datasets: [
+        {
+          label: 'f(x) = x - 3.45',
+          pointRadius: 2,
+          pointBackgroundColor: "rgba(0,0,255,0.5)",
+          showLine: true,
+          fill: false,
+          borderColor: "rgba(0,128,255,0.8)",
+          lineTension: 0.4,
+          data:
+          [
+{x:0, y:-45},
+{x:1, y:0},
+{x:2, y:21},
+{x:3, y:24},
+{x:4, y:15},
+{x:5, y:0},
+{x:6, y:-15},
+{x:7, y:-24},
+{x:8, y:-21},
+{x:9, y:0},
+{x:10, y:45},
+          ]
+        },
+      ]
+    },
+    options: {
+      scales: {
+        xAxes: [{
+          scaleLabel: {
+          display: true,
+          labelString: 'x'
+          }
+        }],
+        yAxes: [{
+          scaleLabel: {
+          display: true,
+          labelString: 'f(x)'
+          }
+        }]    
+      }
+    }
+  }
+  {{< /chart >}}
+  Figure 1. Plot of $f(x)$ against $x$.
 
+
+
+
+
+
+## 4
 + Following code is in JavaScript
   ```js
   /*
@@ -137,3 +194,8 @@ whose root is to be find with $\Delta x = 10^{-1}$, and initial values are $0$.
   - It finds $4.2 < r_1 < 4.3$, whose value is supposed to be $4.25$.
   - The root can be obtained by averaging the values bracketing it, i.e. $\frac12(4.2 + 4.3) = 4.25$, which is true accidentally for this case.
   - Previous step will not work for general case, e.g. $f(x) = x^2 - 104.125x + 412.5$.
+
+
+## refs
++ Rahmansyah A A, Ahhad F M (2013), "Metode Scanning, Newton Raphson, Secant - Matlab", Scribd, 8 Oct 2013, url https://www.scribd.com/document/174418503 [20231225].
++ Rom38 (2015) "Finding all zeroes - mysterious missing roots", comment, Mathematica, 17 Mar 2015, url https://mathematica.stackexchange.com/q/77389/95975 [20231225].
