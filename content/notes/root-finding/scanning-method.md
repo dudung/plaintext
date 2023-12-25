@@ -186,18 +186,9 @@ Figure 2. Flowchart for finding roots of $f(x)$.
 12. End.
 
 
-## code in js
+## code
 + Code 2. Scanning method to find a root of $f(x)$.
   ```js
-  /*
-    scanning_method.js
-    Find a root using scanning method
-    
-    Sparisoma Viridi | https://github.com/dudung
-    
-    20231223 Create this example.
-  */
-
   console.log("Scanning method");
 
   // round to n digit
@@ -304,6 +295,11 @@ Figure 2. Flowchart for finding roots of $f(x)$.
   - It finds $4.2 < r_1 < 4.3$, whose value is supposed to be $4.25$.
   - The root can be obtained by averaging the values bracketing it, i.e. $\frac12(4.2 + 4.3) = 4.25$, which is true accidentally for this case.
   - Previous step will not work for general case, e.g. $f(x) = x^2 - 104.125x + 412.5$.
+
+
+## challenges
++ Write code to implement the algorithm or the flowchart using Python. You can modify the given JavaScript code.
++ Is there any relation between increment of $x$, $\Delta x$ with the accuracy of the result? Explain using examples.
 
 
 ## refs
