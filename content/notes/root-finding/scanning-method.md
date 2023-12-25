@@ -171,11 +171,23 @@ Figure 2. Flowchart for finding roots of $f(x)$.
 
 
 ## algorithm
-+ ..
+1. Start.
+2. Define $x_a$, $x_b$, $\Delta x$.
+3. Initiate $x = x_a$.
+4. Caculate $s_1 = {\rm sign}(f(x))$.
+5. Caculate $s_2 = {\rm sign}(f(x + \Delta x))$.
+6. If $s_1 s_2 < 0$ go to to Step 11.
+7. Advance $x$ with $\Delta x$.
+8. If $x \le x_b$ go to Step 4.
+9. Display no root found.
+10. Go to Step 13.
+10. Calculate ${\rm root} = x + \frac12 \Delta x$.
+11. Display root value.
+12. End.
 
 
-## 3ode 3n js
-+3Code32. Scanning method to find a root of $f(x)$.
+## code in js
++ Code 2. Scanning method to find a root of $f(x)$.
   ```js
   /*
     scanning_method.js
