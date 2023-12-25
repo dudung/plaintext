@@ -82,10 +82,67 @@ whose root is to be find.
   {{< /chart >}}
   Figure 1. Plot of $f(x)$ against $x$.
 + The quadratic form of Equation (1) can not be seen since it is only plotted for $x \in [0, 10]$, which seems to be linear but unfortunately not.
++ Following data are used for Figure 1.
+  ```
+  x
+  [
+  0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0,
+  3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5,
+  7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0
+  ]
+
+  f(x)
+  [
+  425.0, 373.125, 321.75, 270.875, 220.5,
+  170.625, 121.25, 72.375, 24.0, -23.875,
+  -71.25, -118.125, -164.5, -210.375,
+  -255.75, -300.625, -345.0, -388.875,
+  -432.25, -475.125, -517.5
+  ]
+  ```
++ Code 1. Generate data $x$ and $f(x)$.
+  ```python
+  def f(x):
+    y1 = x**2
+    y2 = -104.25 * x
+    y3 = 425
+    y = y1 + y2 + y3
+    return y
+
+  xx = []
+  yy = []
+  for ix in range(21):
+    x = 0.5 * ix
+    xs = "{x:" + f'{x}' + ","
+    ys = "y:" + f'{f(x)}' + "},"
+    print(xs, ys)
+    
+    xx.append(x)
+    yy.append(f(x))
+
+  print()
+  print("x")
+  print(xx)
+
+  print()
+  print("f(x)")
+  print(yy)
+  ```
+  url https://onecompiler.com/python/3zxfanw68 \
+  This code generates two types of data, in the form of
+  - list of dictionary `{x: value, y:value}`,
+  - list of $x$ and $f(x)$.
+
+## flowchart
++ ..
 
 
-## 4
-+ Following code is in JavaScript
+## algorithm
++ ..
+
+
+## code in js
++ Code 2. Scanning method to find a root of $f(x)$.
   ```js
   /*
     scanning_method.js
@@ -145,6 +202,7 @@ whose root is to be find.
   console.log("Root is located between");
   console.log(x1, '\t', x2);
   ```
+  url https://onecompiler.com/javascript/3zxfe9c7m.
 + Result
   ```
   $ node scanning_method.js
