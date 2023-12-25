@@ -28,7 +28,7 @@ whose root is to be find.
     {
       datasets: [
         {
-          label: 'f(x) = x - 3.45',
+          label: 'f(x) = x^2 - 104.25x + 425',
           pointRadius: 2,
           pointBackgroundColor: "rgba(0,0,255,0.5)",
           showLine: true,
@@ -37,17 +37,27 @@ whose root is to be find.
           lineTension: 0.4,
           data:
           [
-{x:0, y:-45},
-{x:1, y:0},
-{x:2, y:21},
-{x:3, y:24},
-{x:4, y:15},
-{x:5, y:0},
-{x:6, y:-15},
-{x:7, y:-24},
-{x:8, y:-21},
-{x:9, y:0},
-{x:10, y:45},
+{x:0.0, y:425.0},
+{x:0.5, y:373.125},
+{x:1.0, y:321.75},
+{x:1.5, y:270.875},
+{x:2.0, y:220.5},
+{x:2.5, y:170.625},
+{x:3.0, y:121.25},
+{x:3.5, y:72.375},
+{x:4.0, y:24.0},
+{x:4.5, y:-23.875},
+{x:5.0, y:-71.25},
+{x:5.5, y:-118.125},
+{x:6.0, y:-164.5},
+{x:6.5, y:-210.375},
+{x:7.0, y:-255.75},
+{x:7.5, y:-300.625},
+{x:8.0, y:-345.0},
+{x:8.5, y:-388.875},
+{x:9.0, y:-432.25},
+{x:9.5, y:-475.125},
+{x:10.0, y:-517.5},
           ]
         },
       ]
@@ -71,10 +81,7 @@ whose root is to be find.
   }
   {{< /chart >}}
   Figure 1. Plot of $f(x)$ against $x$.
-
-
-
-
++ The quadratic form of Equation (1) can not be seen since it is only plotted for $x \in [0, 10]$, which seems to be linear but unfortunately not.
 
 
 ## 4
