@@ -20,9 +20,10 @@ url: "000u"
 ## example
 + Suppose there is an equation
 $$\tag{1}
-f(x) = x^3 - 15x^2 + 59x - 45.
+f(x) = x^3 - 15x^2 + 59x - 45,
 $$
-+ Figure 1. Plot of $f(x)$ against $x$.
+which is a cubic polynomial or third-degree polynomial.
++ Navigate the mouse on a point to view value of $(x, f(x))$ on following figure of Equation (1).
   {{< chart 80 300 >}}
   {
     type: 'scatter',
@@ -72,7 +73,8 @@ $$
     }
   }
   {{< /chart >}}
-+ It has three roots, $x_1 = 1$, $x_2 = 5$, and $x_3 = 9$. 
+  Figure 1. Plot of $f(x)$ against $x$.
++ Equation (1) has three roots, $x_1 = 1$, $x_2 = 5$, and $x_3 = 9$ as shown in previous figure. And the values can also presented in table as follow.
 + Table 1. Values of $x$ and $f(x)$.
 $x$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
 :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-:
@@ -94,6 +96,64 @@ $f(x)$ | -45 | 0 | 21 | 24 | 15 | 0 | -15 | -24 | -21 | 0 | 45
 
   ```
   url https://onecompiler.com/python/3zxcb973f
+
+
+## algorithm &#9888;
++  Here is an example of root finding algorithm, but it is just as an illustration and will only work for Equation (1) with certain value of parameters.
+  1. Start.
+  2. Define initial and final value for $x$, e.g. $x_a$, $x_b$.
+  3. Define step size to change $x$, e.g. $\Delta x$.
+  4. Initiate $x = x_a$.
+  5. If $f(x) = 0$ display message "$x$ is a root".
+  6. Change $x$ to $x + \Delta x$.
+  7. If $x \le x_b$ proceed Step 5.
+  8. Stop.
++ Code 2. Display roots of $f(x)$.
+  ```python
+  coeff = [-45, 59, -15, 1]
+
+  def f(x):
+    y = coeff[-1]
+    for c in reversed(coeff[:-1]):
+      y = y * x
+      y = y + c
+    return y
+
+  xa = -20
+  xb = 20
+  dx = 1
+
+  x = xa
+  while x <= xb:
+    if f(x) == 0:
+      print(x, "is a root")
+    x += dx
+  ```
+  url https://onecompiler.com/python/3zxe2dukg.
++ Result
+  ```
+  1 is a root
+  5 is a root
+  9 is a root
+  ```
+  Code 2 gives the roots of $f(x)$ in Equation (1). It has $x_a = -20$, $x_b = 20$, and $\Delta x = 1$. So it is searching from $-20$ to $20$ with step size $1$.
++ Notice that the code will fail if value of $x$ being evaluated does not match value of the roots, e.g.
+  - $x_a = -20$, &nbsp; $x_b = 20$, &nbsp; $\Delta x = 2$;
+  - $x_a = -21.5$, &nbsp; $x_b = 20$, &nbsp; $\Delta x = 1$;
+  - $x_a = -20$, &nbsp; $x_b = 0$, &nbsp; $\Delta x = 1$;
+  - and other possible conditions.
+
+
+## challenges
++ Find another values of $x_a$, $x_b$, and $\Delta x$ that will fail the given algorithm in finding roots of Equation (1).
++ Suppose that there is an equation
+$$\tag{2}
+g(x) = x^2 - 4.5x + 5
+$$
+and its roots are to find. What whould be the values of $x_a$, $x_b$, and $\Delta x$ so that the previous algorithm works?
++ Give at least four different values, each for $x_a$, $x_b$, and $\Delta x$, that make previous algorithm work.
++ And give also the same amout of different values of them that make the algorithm fail.
++ From the previous answers, what would be then the requirements for $x_a$ and $x_b$, and also for $\Delta x$? Explain them in brief with examples.
 
 
 ## refs
