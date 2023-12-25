@@ -134,15 +134,48 @@ whose root is to be find.
   - list of $x$ and $f(x)$.
 
 ## flowchart
-+ ..
++ Following flowchart shows how scanning method works. At the end it average two points, where the root lies, as the root.
+{{< mermaid >}}
+flowchart TD
+  B --> I --> P1 --> P2 --> o2a
+  o1a --> P2
+  o2b --> P3 --> C1 --"N"--> P5 --> o3a
+  C1 --"Y"--> P6 --> o4a
+  o3b --> C2 --"Y"--> o1b
+  C2 --"N"--> O2 --> o5a
+  o4b --> O1 ---> o5b --> E
+  B(["Begin"])
+  I[/"xa, xb, &Delta;x"/]
+  P1["x = xa"]
+  P2["s1 = sign(f(x))"]
+  P3["s2 = sign(f(x+&Delta;x))"]
+  P5["x = x + &Delta;x"]
+  P6["root = x + &Delta;x/2"]
+  C1{"s1 &middot; s2 < 0?"}
+  C2{"x &le; xb?"}
+  O1[/"root"/]
+  O2[/"no root"/]
+  E(["End"])
+  o1a(("1")); o1b(("1"))
+  o2a(("2")); o2b(("2"))
+  o3a(("3")); o3b(("3"))
+  o4a(("4")); o4b(("4"))
+  o5a(("5")); o5b(("5"))
+  classDef style1 fill:none, color:inherit
+  classDef style2 fill:#888, color:#fff
+  class B,E,I,P1,P2,P3,P4,P5,P6,C1,C2,O1,O2 style1
+  class o1a,o1b,o1c,o2a,o2b,o3a,o3b,o4a,o4b,o5a,o5b style2
+  linkStyle default stroke:#8a8
+{{< /mermaid >}}
+Figure 2. Flowchart for finding roots of $f(x)$.
 
 
 ## algorithm
 + ..
 
 
-## code in js
-+ Code 2. Scanning method to find a root of $f(x)$.
+## 3ode 3n js
++3Code32. Scanning method to find a root of $f(x)$.
   ```js
   /*
     scanning_method.js
