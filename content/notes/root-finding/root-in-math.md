@@ -15,6 +15,7 @@ url: "000u"
 + Roots can be found algebraically as well as graphically, and the number of roots of a polynomial function gives the degree of the polynomial as shown by the fundamental theorem of algebra (Smith et al., 2023).
 + The roots, which are also called zeros, of an equation $f(x) = 0$, are values of $x$ for which the equation is satisfied (Weisstein, 2023).
 + The term root is sometimes also used as a quick way of saying square root, e.g. root 2 means &Sqrt;2 (Pierce, 2023).
++ Intersection of two functions can also be solved using root finding (Smith, 2022).
 
 
 ## example
@@ -98,6 +99,37 @@ $f(x)$ | -45 | 0 | 21 | 24 | 15 | 0 | -15 | -24 | -21 | 0 | 45
   url https://onecompiler.com/python/3zxcb973f
 
 
+## flowchart &#9888;
++ Following flowchart is only for illustration, where further description is given along with algorithm in next section.
+{{< mermaid >}}
+flowchart TD
+  B --> I --> P1 --> o1a
+  o1b --> C1 --"Y"--> O --> o2a
+  C1 --"N"--> o2a
+  o2b --> P2 --> C2
+  C2 --"Y"--> o1c
+  C2 --"N"--> E
+  I[/"xa, xb, &Delta;x"/]
+  P1["x = xa"]
+  P2["x = x + &Delta;x"]
+  C1{"f(x) = 0?"}
+  C2{"x &le; xb?"}
+  O[/"x is a root"/]
+  B(["Begin"])
+  E(["End"])
+  o1a(("1")); o1b(("1")); o1c(("1"))
+  o2a(("2")); o2b(("2"))
+  classDef style1 fill:none, color:inherit
+  classDef style2 fill:#888, color:#fff
+  class B,E,I,P1,P2,C1,C2,O style1
+  class o1a,o1b,o1c,o2a,o2b style2
+  linkStyle default stroke:#8a8
+{{< /mermaid >}}
+Figure 2. Flowchart for finding roots of $f(x)$.
++ Test whether $x$ is a root begins with $x = x_a$ and ends with  $x = x_b$, where the increment of $x$ is $\Delta x$.
++ It is assumed that there is already $f(x)$, but when not, it can be put on the input box together with $x_a$, $x_b$, and $\Delta x$.
+
+
 ## algorithm &#9888;
 +  Here is an example of root finding algorithm, but it is just as an illustration and will only work for Equation (1) with certain value of parameters.
   1. Start.
@@ -159,5 +191,6 @@ and its roots are to find. What whould be the values of $x_a$, $x_b$, and $\Delt
 ## refs
 + Britannica, T E E, Hosch W L, Lotha G (2023) "root", Encyclopedia Britannica, 12 Oct 2023, url https://www.britannica.com/science/root-mathematics [20231224]
 + Pierce R (2023) "Root Definition (Illustrated Mathematics Dictionary)", Math Is Fun, Ed. Rod Pierce, 8 Sep 2023, url http://www.mathsisfun.com/definitions/root.html [20231224].
++ Smith C (2022) "Using fzero() to find the intersection of 2 functions", Oxnard College, LibreTexts Engineering, 29 Oct 2022, url https://eng.libretexts.org/@go/page/88611 [20231225].
 + Smith W, et al. (2023) "Root | Definition & Meaning", Story of Mathematics, 10 Apr 2023, url https://www.storyofmathematics.com/glossary/root/ [20231224].
 + Weisstein, E W (2023) "Root", from MathWorld--A Wolfram Web Resource, 12 Dec 2023, url https://mathworld.wolfram.com/Root.html [20231224].
