@@ -11,6 +11,7 @@ url: "000c"
 
 
 ## 2023-1
++ `24-dec-2023` [`bwzha`](https://osf.io/bwzha) Temporary Technical Report, progressing.
 + `21-dec-2023` [`u8d9v`](https://osf.io/u8d9v) Re-reminder for the final report.
 + `20-dec-2023` [`u8d9v`](https://osf.io/u8d9v) Report unofficially to course PIC.
 + `18-dec-2023` [`u8d9v`](https://osf.io/u8d9v) Message for reminder of final technical report.
