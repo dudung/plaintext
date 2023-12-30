@@ -23,6 +23,7 @@ url: "000y"
   url https://medium.com/@6unpnp/bcd4de7a3fce [20231230].
 + There might be a possibility to copy text part of the story to here.
 + There are two references there that are not yet available here. Update will depend on the previous note.
++ That might be the last story on Medium in 2023.
 
 
 ## refs
