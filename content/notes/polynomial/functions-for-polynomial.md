@@ -13,6 +13,8 @@ url: "000w"
 ## intro
 + When have to work with function representing polynomial, e.g. plot polynomial function, the function can be made by summing all terms manually (Imam, 2018).
 + To calculate $f(x)$ for single value of $x$
++ User defined class can be constructed to meet only what is needed, coffecients, string representation in LaTeX, and calculate the value for every $x$ using callabes (Klein, 2023).
+
 
 ## refs
 + Bhojasia M (2022) "Python Program to Compute a Polynomial Equation", Sanfoundy, 30 May 2022, url https://www.sanfoundry.com/python-program-compute-polynomial-equation-coefficients-list/#google_vignette [20131227].
