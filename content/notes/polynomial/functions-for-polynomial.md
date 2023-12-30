@@ -12,8 +12,11 @@ url: "000w"
 
 ## intro
 + When have to work with function representing polynomial, e.g. plot polynomial function, the function can be made by summing all terms manually (Imam, 2018).
-+ To calculate $f(x)$ for single value of $x$
-+ User defined class can be constructed to meet only what is needed, coffecients, string representation in LaTeX, and calculate the value for every $x$ using callabes (Klein, 2023).
++ To calculate $f(x)$ for single value of $x$ there is at least two ways with different time complexity, $O(n^2)$ by adding each term for $x^j$ with multiplication and summation loops, and $O(n)$ by using Horner's method (Taparia, 2022).
++ Python math library can be used to calculate $x^j$ and reduce previous approach with two loops into single loop (Bhojasia, 2022). 
++ User defined class can be constructed to meet only what is needed, coefficients, string representation in LaTeX, and calculate the value for every $x$ using callabes (Klein, 2023).
++ By representing a polynomial in its coefficent NumPy functions can be used to calculate the value for every $x$, finding roots of the the polynomial, perform differential and integral to it (Kitchin, 2013).
++ There are also some series, e.g. power, Chebyshev, Hermite, Laguerre, Legendre, provided by NumPy (Developers, 2022).
 
 
 ## refs
