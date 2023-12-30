@@ -13,9 +13,16 @@ url: "000y"
 ## intro
 + If you have Google Account, you can access Google Forms by loggin in via https://forms.google.com/.
 + Google Forms, as part of Google's web-based apps suite, is free online software that allows you to create surveys and quizzes (Demarest, 2021).
-+ It has several setting, e.g. limit repsonses for each user, grade tests and quizzes automatically, customize color theme, set form sections and logic, use provided templates, and save reponses, that can support your need (Lau, 2023).
++ It has several setting, e.g. limit responses for each user, grade tests and quizzes automatically, customize color theme, set form sections and logic, use provided templates, and save reponses, that can support your need (Lau, 2023).
 + It is already common used by educators in evaluating achievement of their students (SMP, 2021).
 + Actually to make quizzes you can use Google Forms, Drive, or Sheets (Viridi, 2023).
+
+
+## content
++ First quiz for some course, a story on Medium \
+  url https://medium.com/@6unpnp/bcd4de7a3fce [20231230].
++ There might be a possibility to copy text part of the story to here.
++ There are two references there that are not yet available here. Update will depend on the previous note.
 
 
 ## refs
