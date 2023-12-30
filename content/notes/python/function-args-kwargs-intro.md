@@ -94,7 +94,7 @@ url: "000x"
   10 = 10
   ```
 + Notice that now the function works with arbitrary number of arguments, 1, 2, or 3.
-
++ There might be also some problems arise with current version, e.g. if the arguments are not integer or float.
 
 
 ## challenges
