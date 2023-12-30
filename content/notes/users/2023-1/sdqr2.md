@@ -11,7 +11,10 @@ url: "000b"
 
 
 ## 2023-1
-+ `20-dec-2023` [`72nbd`](https://osf.io/72nbd) PND Presentation with hybrid mode.
++ `27-dec-2023` [`darwb`](https://osf.io/darwb) Thermal Properties of Food, a ref from 20-Dec.
++ `26-dec-2023` [`skqe7`](https://osf.io/skqe7) Invitation for SPD on 29-Dec 0830 JTN.
++ `24-dec-2023` [`6jzvg`](https://osf.io/6jzvg) Revised final version of doctoral thesis.
++ `20-dec-2023` [`g6qnz`](https://osf.io/g6qnz) PND Presentation with hybrid mode.
 + `18-dec-2023` [`hj8uc`](https://osf.io/hj8uc) Photo for presentation slide of PND.
 + `17-dec-2023` [`m8bsk`](https://osf.io/m8bsk) Final doctoral thesis for PND on 20-Dec 1000.
 + `11-dec-2023` [`p8g93`](https://osf.io/p8g93) Invitation for PND on 20-Dec.
