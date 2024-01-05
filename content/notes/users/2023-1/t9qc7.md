@@ -16,5 +16,11 @@ url: "0011"
 + `02-jan-2024` [`3ghns`](https://osf.io/3ghns) Confirmation from SPS about thesis defense on 08-Jan-2024.
 
 
+## 2022-1
++ `08-jun-2024` [`sb3kq`](https://osf.io/sb3kq) Presentation of thesis-1 on Main Seminar room, PPNN.
++ `05-jun-2024` [`24tz8`](https://osf.io/24tz8) Presentation slide for thesis-1 defense.
++ `31-may-2023` [`g6dep`](https://osf.io/g6dep) Invitation from SPS for Thesis-1 presentation on 08-Jun-2024.
++ `30-may-2023` [`sb3kq`](https://osf.io/sb3kq) Confirmation for a thesis-1 seminar of Nano master program.
+
 ## notes
 + Role is as examiner only.

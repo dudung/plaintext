@@ -26,6 +26,7 @@ url: "0007"
 + `10220022` [`000f`](../000f) SV Angeli Fransiska Njo.
 + `20222010` [`000j`](../000j) SV Nazla Innayah. &check;
 + `20923005` [`000n`](../000n) NA Aria Wahyu Wicaksono. &check;
++ `28721305` [`0011`](../0011) DA Fathi Ibrahim.
 + `30219009` [`000c`](../000c) SV Eka Sylvianti Rahayu. &check;
 + `30221017` [`000a`](../000a) SH Yuant Tiandho. &check;
 + `30222004` [`000z`](../000z) IA Yeni Pertiwi. &check;
