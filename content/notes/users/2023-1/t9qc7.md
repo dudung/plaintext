@@ -22,5 +22,6 @@ url: "0011"
 + `31-may-2023` [`g6dep`](https://osf.io/g6dep) Invitation from SPS for Thesis-1 presentation on 08-Jun-2024.
 + `30-may-2023` [`sb3kq`](https://osf.io/sb3kq) Confirmation for a thesis-1 seminar of Nano master program.
 
+
 ## notes
 + Role is as examiner only.
