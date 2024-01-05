@@ -37,4 +37,5 @@ url: "0007"
 
 
 ## 2022-2
++ `28720303` [`0012`](../0012) DA Arrasy Adena Muhammad. &check;
 + `28721305` [`0011`](../0011) DA Fathi Ibrahim. &check;
