@@ -230,7 +230,7 @@ f(x) = x - 3.45,
 $$
 and show which part of the given code should be modified.
 + Compare the result obtained previously using bisection method in [0004](../0004). Which one is more efficient?
-+ Compare the flowchart for scan method in [000s](../000s), bisection method in [0004](../0004) and Newton-Raphson method here. Which one is easier to understand? Why?
++ Compare the flowchart for scanning method in [000s](../000s), bisection method in [0004](../0004) and Newton-Raphson method here. Which one is easier to understand? Why?
 + Find roots of
 $$\tag{5}
 f(x) = (x - 1.23456)(x - 9.87654)(x - 23.45678),
