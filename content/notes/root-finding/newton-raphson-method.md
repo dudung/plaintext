@@ -28,18 +28,14 @@ with $n = 0, 1, 2, 3, \dots$, $x_0$ is the initial guess for the root, and $f'(x
 {{< mermaid >}}
 flowchart TD
   B --> I --> P1 --> O1a
-  O2b --> P3 --> O1c
-  C --"N"--> O2a
-  O1b --> P2 --> C --"Y"--> O3a
-  O3b --> O --> E
+  O1b --> P2 --> C --"N"--> P3 --> O1c
+  C --"Y"--> O --> E
   O[/"x[n+1]"/]
   C{"|f(x[n+1])| < &varepsilon;"}
   P2["x[n+1] = x[n] <br> &mdash; f'(x[n])/f(x[n])"]
   P1["n = 0"]
   P3["n = n + 1"]
   I[/"f(x), f'(x), &epsilon;"/]
-  O3a(("3")); O3b(("3"));
-  O2a(("2")); O2b(("2"));
   O1a(("1")); O1b(("1")); O1c(("1"));
   B(["Begin"])
   E(["End"])
@@ -47,10 +43,10 @@ flowchart TD
   classDef style2 fill:#888, color:#fff
   class P1,P2,P3,P4 style1
   class I,C,O,B,E style1
-  class O1a,O1b,O1c,O2a,O2b,O3a,O3b style2
+  class O1a,O1b,O1c, style2
   linkStyle default stroke:#8a8
 {{< /mermaid >}}
-
++ Parameter $\varepsilon$ is small value that is acceptable representing $0$, since it might require a lot of iterations to find $f(x) = 0$, where $f(x) \approx 0$ is easier.
 
 
 ## challenges
