@@ -23,6 +23,26 @@ with $n = 0, 1, 2, 3, \dots$, $x_0$ is the initial guess for the root, and $f'(x
 + As $n$ increases, the value of $f(x_n)$ is nearer to $0$.
 
 
+## flowchart
++ The Newton-Raphson method can be represented in following flowchart.
+{{< mermaid >}}
+flowchart TD
+  B --> I --> P1 --> O1a
+  P1["n = 0"]
+  I[/"f(x), f'(x), &epsilon;"/]
+  O1a(("1")); O1b(("1"));
+  B(["Begin"])
+  E(["End"])
+  classDef style1 fill:none, color:inherit
+  classDef style2 fill:transparent, color:inherit
+  class P1,P2,P3,P4,P5,P6 style1
+  class I,B,E style1
+  class O1a,O1b style2
+  linkStyle default stroke:#8a8
+{{< /mermaid >}}
+
+
+
 ## challenges
 + Explain in brief the background of Newton-Raphson method and how it is formulated until the iterative formula in Equation (1) is obtained.
 
