@@ -35,7 +35,7 @@ flowchart TD
   P2["x[n+1] = x[n] <br> &mdash; f'(x[n])/f(x[n])"]
   P1["n = 0"]
   P3["n = n + 1"]
-  I[/"f(x), f'(x), &epsilon;"/]
+  I[/"f(x), f'(x), &epsilon;, x[0]"/]
   O1a(("1")); O1b(("1")); O1c(("1"));
   B(["Begin"])
   E(["End"])
@@ -47,6 +47,18 @@ flowchart TD
   linkStyle default stroke:#8a8
 {{< /mermaid >}}
 + Parameter $\varepsilon$ is small value that is acceptable representing $0$, since it might require a lot of iterations to find $f(x) = 0$, where $f(x) \approx 0$ is easier.
+
+
+## algorithm
+1. Start.
+2. Input $f(x)$, $f'(x)$, $\varepsilon$, $x_0$.
+3. Set $n = 0$.
+4. Calculate $x_{n+1} = x_n - f(x_n) / f'(x_n)$.
+5. If $f(x_{n+1}) < \varepsilon$, go to Step 8.
+6. Increase $n$ using $n = n + 1$.
+7. Go to Step 4.
+8. Print $x_{n+1}$.
+9. End.
 
 
 ## challenges
