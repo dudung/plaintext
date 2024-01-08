@@ -11,7 +11,7 @@ url: "0015"
 
 
 ## intro
-If the derivative of function, whose root is to be found, does not exist or hard to find, secant method can be used instead of Newton raphson method, since it does not required the derivative but it requires two initial guesses for the roots (Mohan, 2021). Since this method retains only the most recent estimate, the root does not necessary bracketed (Weisstein). Because of that secant method may not converge (Han, 2017).
+If the derivative of function, whose root is to be found, does not exist or hard to find, secant method can be used instead of Newton raphson method, since it does not required the derivative but it requires two initial guesses for the roots (Mohan, 2021). Since this method retains only the most recent estimate, the root does not necessary bracketed (Weisstein). Because of that secant method may not converge (Han, 2017). There is a report explaining origin and evolution of secont method in 1-d (Papakonstantinou & Tapia, 2013).
 
 
 ## formula
@@ -227,27 +227,31 @@ $$
 
 ## challenges
 + Explain in brief the background of Newton-Raphson method and how it is formulated until the iterative formula in Equation (1) is obtained. If necessary draw also some graphs to make the exlplanation clearer.
++ Find resources explaining that convergence of Newton-Raphson method is quadratic, while convergence of secant method is linear. And read it.
 + Try to find the root of
 $$\tag{3}
 f(x) = x - 3.45,
 $$
 and show which part of the given code should be modified.
-+ Compare the result obtained previously using bisection method in [0004](../0004). Which one is more efficient?
-+ Compare the flowchart for scan method in [000s](../000s), bisection method in [0004](../0004) and Newton-Raphson method here. Which one is easier to understand? Why?
++ Compare the flowchart for scanning method in [000s](../000s), bisection method in [0004](../0004) and Newton-Raphson method in [0014](../0014). Which one is easier to understand? Why?
 + Find roots of
 $$\tag{4}
 f(x) = (x - 1.23456)(x - 9.87654)(x - 23.45678),
 $$
 with different initial guesses, e.g. 0, 5, 11, 40. Create table to show the relation between initial guess and root found.
++ Compare the result obtained previously using Newton-Raphson method in [0014](../0014). Which one is more efficient?
 + What will happen if $x_0 = 5 \pm \delta$ in finding root of
-$$\tag{6}
+$$\tag{5}
 f(x) = (x - 2)(x - 8)
 $$
 by varying value of $\delta$ to assure that both roots are found.
 + Until now all examples are in the form of polynomial, will this method also work for non-polynomial function? Test it for at least such functions. Report the results.
++ What would be the advantages and the disadvantages from this method compared to Newton-Raphson method?
++ Can this method apply to a constant function, e.g. $f(x) = c$, where $c$ is a constant value. Explain in brief.
 
 
 # refs
 + Han W (2017), "The Secant Method", Elementary Numerical Analysis, Fall, url https://homepage.math.uiowa.edu/~whan/3800.d/S3-3.pdf [20240108].
 + Mohan M (2021) "Secant Method of Numerical analysis", GeeksforGeeks, 18 Oct, url https://www.geeksforgeeks.org/secant-method-of-numerical-analysis/ [20240108].
++ Papakonstantinou J M, Tapia R A (2013) "Origin and Evolution of the Secant Method in One Dimension", The American Mathematical Monthly, vol 120, no 6, June–July 2013), pp 500-518 (19 pages), url https://doi.org/10.4169/amer.math.monthly.120.06.500.
 + Weisstein E W (2023) "Secant Method" from MathWorld--A Wolfram Web Resource, 12 Dec, url https://mathworld.wolfram.com/SecantMethod.html [20240108].
