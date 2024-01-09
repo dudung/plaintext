@@ -81,7 +81,7 @@ flowchart TD
   B(["Begin"])
   E(["End"])
   classDef style1 fill:none, color:inherit
-  classDef style2 fill:transparent, color:inherit
+  classDef style2 fill:#888, color:#fff
   class P1,P2,P3,P4,P5,P6 style1
   class C1,C2,B,E,I style1
   class O1a,O1b,O2a,O2b,O3a,O3b,O4a,O4b style2
