@@ -11,6 +11,7 @@ url: "0011"
 
 
 ## 2023-1
++ `08-jan-2024` [`C10wx`](https://www.instagram.com/p/C10wxl8P2F4/) Presentation of thesis in main seminar room, 1030, PPNN.
 + `05-jan-2024` [`7rsaf`](https://osf.io/7rsaf) Information of hardcopy from TU-FI Dadan in locker.
 + `03-jan-2024` [`tqcrj`](https://osf.io/tqcrj) Invitation from SPS for defense on PPNN. next Monday.
 + `02-jan-2024` [`3ghns`](https://osf.io/3ghns) Confirmation from SPS about thesis defense on 08-Jan-2024.
