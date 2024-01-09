@@ -5,6 +5,9 @@
   Sparisoma Viridi | https://github.com/dudung
   
   20231223 Create this example.
+  20240109 Add information to execute.
+  
+  Execute: node scanning_method.js
 */
 
 console.log("Scanning method");
