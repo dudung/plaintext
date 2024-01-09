@@ -10,6 +10,10 @@ url: "000c"
 {{< toc >}}
 
 
+## 2023-2
++ `09-jan-2023` [`62trk`](https://osf.io/62trk) Discussion about GFA for paper with 2nd idea first.
+
+
 ## 2023-1
 + `28-dec-2023` [`jmq25`](https://osf.io/jmq25) Technical report and preceeding project idea.
 + `24-dec-2023` [`bwzha`](https://osf.io/bwzha) Temporary Technical Report, progressing.
