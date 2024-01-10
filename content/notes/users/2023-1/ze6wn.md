@@ -11,6 +11,7 @@ url: "000f"
 
 
 ## 2023-1
++ `10-jan-2024` [`hn63z`](https://osf.io/hn63z) Code swap cells diffusion as example of not-initial configuration.
 + `09-jan-2024` [`r39e7`](https://osf.io/r39e7) Discussion about TA-2, ABM diffusion, entropy.
 + `19-dec-2023` [`3d8yj`](https://osf.io/3d8yj) Discussion about geological aspect before vacation.
 + `18-dec-2023` [`r39e7`](https://osf.io/r39e7) Tomorrow appointment for progress discussion.

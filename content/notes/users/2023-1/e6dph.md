@@ -11,6 +11,7 @@ url: "000h"
 
 
 ## 2023-1
++ `10-jan-2024` [`mprfb`](https://osf.io/mprfb) Signing of seminar form and weekly discussion meeting.
 + `09-jan-2024` [`mprfb`](https://osf.io/mprfb) Supervision by PW for finalization of TA-1 draft.
 + `18-dec-2023` [`mprfb`](https://osf.io/mprfb) Discussion about granular and fluid lab condition.
 
